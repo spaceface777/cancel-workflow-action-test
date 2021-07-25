@@ -7,6 +7,12 @@ on:
     branches: [ '*' ]
 
 jobs:
+  cancel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: wait 2 minutes before scheduling all jobs (to allow them to be cancelled)
+        run: sleep 120
+
   job_1:
     needs: cancel
     runs-on: ubuntu-latest
