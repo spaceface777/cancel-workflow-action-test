@@ -1,18 +1,18 @@
-name: Cancel previous workflows
+# name: Cancel previous workflows
 
-on:
-  push:
-    branches: [ '*' ]
-  pull_request:
-    branches: [ '*' ]
+# on:
+#   push:
+#     branches: [ '*' ]
+#   pull_request:
+#     branches: [ '*' ]
 
-jobs:
-  cancel:
-    runs-on: ubuntu-latest
-    timeout-minutes: 3
-    steps:
-      - uses: styfle/cancel-workflow-action@0.9.0
-        with:
-          all_but_latest: true
-          workflow_id: 11604946 # get this from https://api.github.com/repos/:org/:repo/actions/workflows - can be a comma-separated list of workflow IDs
-          access_token: ${{ github.token }}
+# jobs:
+#   cancel:
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 3
+#     steps:
+#       - uses: styfle/cancel-workflow-action@0.9.0
+#         with:
+#           all_but_latest: true
+#           workflow_id: 11604946 # get this from https://api.github.com/repos/:org/:repo/actions/workflows - can be a comma-separated list of workflow IDs
+#           access_token: ${{ github.token }}
