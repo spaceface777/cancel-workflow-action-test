@@ -1,0 +1,128 @@
+name: CI
+
+on:
+  push:
+    branches: [ '*' ]
+  pull_request:
+    branches: [ '*' ]
+
+jobs:
+  job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+  
+  job_4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_5:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+  
+  job_6:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+  
+  job_7:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+  
+  job_8:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_9:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_10:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_11:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_12:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_13:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+  
+  job_14:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_15:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+  
+  job_16:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+  
+  job_17:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+  
+  job_18:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_19:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
+
+  job_20:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do nothing for one hour
+        run: sleep 3600
