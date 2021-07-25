@@ -16,4 +16,3 @@
 #           all_but_latest: true
 #           workflow_id: 11604946 # get this from https://api.github.com/repos/:org/:repo/actions/workflows - can be a comma-separated list of workflow IDs
 #           access_token: ${{ github.token }}
-
