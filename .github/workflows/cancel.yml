@@ -14,4 +14,5 @@ jobs:
       # don't cancel CI for commits pushed to vlang/v#master (if ci is still too slow, this can be removed safely)
       if: ${{ github.event.workflow_run.head_repository.full_name != 'spaceface777/cancel-workflow-action-test' || github.event.workflow_run.head_branch != 'main' }}
       with:
-        workflow_id: ${{ github.event.workflow.id }}
+        all_but_latest: true
+        workflow_id: 11604946,11638589
