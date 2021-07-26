@@ -10,6 +10,8 @@ jobs:
   cancel-previous-workflows:
     runs-on: ubuntu-latest
     steps:
+    - run: echo {{ github.event }}
+
     - uses: spaceface777/cancel-workflow-action@main
       with:
         workflow_id: ${{ github.event.workflow.id }}
