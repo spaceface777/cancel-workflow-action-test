@@ -13,5 +13,6 @@ jobs:
     - run: echo '${{ toJSON(github.event) }}'
 
     - uses: spaceface777/cancel-workflow-action@main
+      if: ${{ github.event.workflow_run.head_repository.full_name !== 'spaceface777/cancel-workflow-action-test' || github.ref !== 'refs/heads/main' }}
       with:
         workflow_id: ${{ github.event.workflow.id }}
