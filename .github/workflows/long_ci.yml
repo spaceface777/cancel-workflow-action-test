@@ -55,19 +55,12 @@ jobs:
       - name: do nothing for 15 minutes
         run: sleep 900
 
-  job_6:
+  job_7:
     needs: cancel
     runs-on: ubuntu-latest
     steps:
       - name: do nothing for 20 minutes
         run: sleep 1200
-
-  job_7:
-    needs: cancel
-    runs-on: ubuntu-latest
-    steps:
-      - name: do nothing for 30 minutes
-        run: sleep 1800
 
   job_8:
     needs: cancel
